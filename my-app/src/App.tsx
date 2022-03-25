@@ -1,14 +1,25 @@
 import React from 'react';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
-    <div style={{display:"flex", flexDirection:"row", justifyContent:"center", alignItems:"center"}}> 
-      <h1>
-      THIS IS NEW PRAGET X WEBSITE
-
-      </h1>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />}>
+        <Route index element={<Home />} />
+        <Route path="teams" element={<Teams />}>
+          <Route path=":teamId" element={<Team />} />
+          <Route path="new" element={<NewTeamForm />} />
+          <Route index element={<LeagueStandings />} />
+        </Route>
+      </Route>
+    </Routes>
+  </BrowserRouter>
   );
 }
 
