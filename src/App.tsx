@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
 import BecomeAPartner from "./Pages/AboutCompany/BecomeAPartner";
 import ClientTestimonial from "./Pages/AboutCompany/ClientTestimonial";
 import CoreTeam from "./Pages/AboutCompany/CoreTeam";
@@ -56,9 +57,17 @@ import JavaScript from "./Pages/Web Development/Frontend/JavaScript";
 import ReactJS from "./Pages/Web Development/Frontend/ReactJS";
 import Vue from "./Pages/Web Development/Frontend/Vue";
 import WhyPragetX from "./Pages/WhyPragetX";
+import "bootstrap/dist/css/bootstrap.min.css"
+import 'bootstrap/dist/js/bootstrap.bundle';
+import Footer from "./Components/Footer/Footer";
+import BottomContactForm from "./Components/BottomContactForm/BottomContactForm";
+import "./CSS/custom.css"
+
 
 function App() {
   return (
+    <>
+    <Navbar/>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -191,6 +200,9 @@ function App() {
         <Route path="/OurCompany" element={<OurCompany />} />
       </Routes>
     </BrowserRouter>
+    <BottomContactForm/>
+    <Footer/>
+    </>
   );
 }
 
