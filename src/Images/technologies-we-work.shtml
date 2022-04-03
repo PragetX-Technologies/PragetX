@@ -1,0 +1,85 @@
+<section class="services-main">
+   <div class="container">
+      <div class="services-con">
+         <div class="con-head text-center">
+            <h2>Services We Offer</h2>
+            <h5>We provide cutting edge web and mobile app solutions</h5>
+         </div>
+         <div class="services-inner">
+            <div class="service-list-box">
+               <div class="service-box1">
+                  <a href="#">
+                     <img src="image/s1custom-software.svg">
+                     <p>Custom Software <br>Development</p>
+                  </a>
+               </div>
+               <div class="service-box2">
+                  <a href="#">
+                     <img src="image/s6enterprisesoftware.svg">
+                     <p>Enterprise <br>Solution</p>
+                  </a>
+               </div>
+            </div>
+            <div class="service-list-box list-box-tm">
+               <div class="service-box2">
+                  <a href="#">
+                     <img src="image/s2marketing.svg">
+                     <p>Digital <br>Marketing</p>
+                  </a>
+               </div>
+               <div class="service-box1">
+                  <a href="#">
+                     <img src="image/s7branding.svg">
+                     <p>Branding</p>
+                  </a>
+               </div>
+            </div>
+            <div class="service-list-box">
+               <div class="service-box1">
+                  <a href="#">
+                     <img src="image/s3webdevelopment.svg">
+                     <p>Web <br>Development</p>
+                  </a>
+               </div>
+               <div class="service-box2">
+                  <a href="#">
+                     <img src="image/s8uiuxdesign.svg">
+                     <p>UI-UX Design</p>
+                  </a>
+               </div>
+            </div>
+            <div class="service-list-box list-box-tm">
+               <div class="service-box2">
+                  <a href="#">
+                     <img src="image/s4database.svg">
+                     <p>Database <br>Management</p>
+                  </a>
+               </div>
+               <div class="service-box1">
+                  <a href="#">
+                     <img src="image/s7branding.svg">
+                     <p>Branding</p>
+                  </a>
+               </div>
+            </div>
+            <div class="service-list-box">
+               <div class="service-box1">
+                  <a href="#">
+                     <img src="image/s5mobileapp.svg">
+                     <p>Mobile App <br>Development</p>
+                  </a>
+               </div>
+               <div class="service-box2">
+                  <a href="#">
+                     <img src="image/s9cloud.svg">
+                     <p>Cloud <br>Solution</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="service-btn">
+            <a href="#" class="btn">View More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+         </div>
+      </div>
+   </div>
+</section>
