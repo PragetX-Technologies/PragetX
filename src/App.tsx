@@ -17,6 +17,7 @@ import GoogleAppEngineServices from "./Pages/CloudServices/GoogleAppEngineServic
 import ContactUs from "./Pages/ContactUs";
 import AIandML from "./Pages/EmergingTechnology/AIandML";
 import ARandVR from "./Pages/EmergingTechnology/ARandVR";
+import AboutUs from "./Pages/AboutUs";
 import BigData from "./Pages/EmergingTechnology/BigData";
 import BlockChain from "./Pages/EmergingTechnology/BlockChain";
 import IoT from "./Pages/EmergingTechnology/IoT";
@@ -71,6 +72,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Career" element={<Career />} />
         <Route path="/ContactUs" element={<ContactUs />} />
