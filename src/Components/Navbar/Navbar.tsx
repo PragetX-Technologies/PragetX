@@ -23,7 +23,7 @@ function Navbar() {
                         <a className="nav-link" href="#">Hire Developer</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About Us</a>
+                        <a className="nav-link" href="/AboutUs">About Us</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">Portfolio</a>
