@@ -20,20 +20,19 @@ function AboutUs() {
       <>
         <AboutUsTopSlider/>
         <AboutUsTagLine/>
-        <AboutUsCon/>
         <ReadOurReview/>
-        <FeaturesOn/>
+        <AboutUsCon/>
         <AreYouStartUP/>
+        <OurMissionVision/>
         <AtPragetX/>
-        <OurMissionVision/>
-        <Insights/>
-        <TrustedBy/>
-        <CustomerSupport/>
-        <CoreVal/>
-        <DiscussWithUs/>
         <CompanyVideo/>
-        <WorkLife/>
-        <OurMissionVision/>
+        <FeaturesOn/>
+        <TrustedBy/>
+        <Insights/>
+        <WorkLife/> 
+        <CustomerSupport/>
+        <DiscussWithUs/>
+        <CoreVal/>
       </>
       )
     }
