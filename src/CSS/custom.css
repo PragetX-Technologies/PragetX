@@ -17,7 +17,8 @@ h5{font-size:24px!important;line-height:30px!important;letter-spacing:-1px;font-
 h6{font-size:18px!important;line-height:24px!important;letter-spacing:-1px;font-weight:500;}
 /*================header================*/
 .header-main {
-	display: inline-block; background-color: #fff;
+	background-color: whitesmoke;
+	display: inline-block;
 	width: 100%;
 	vertical-align: top;
 	position: fixed;
@@ -1616,7 +1617,7 @@ h6{font-size:18px!important;line-height:24px!important;letter-spacing:-1px;font-
 	align-items: center;
 	border-right: 1px solid #024D81;
 }
-.work-life .col-lg-4:last-child .work-life-box {
+.work-life .col-lg-4:nth-child(3n) .work-life-box {
 	border-right: none;
 }
 .work-life-box img {
@@ -1651,7 +1652,7 @@ h6{font-size:18px!important;line-height:24px!important;letter-spacing:-1px;font-
 }
 .cb-slideshow:after {
     content: '';
-    /* background: transparent url(../Images/pattern.png) repeat top left; */
+    /*background: transparent url(../Images/pattern.png) repeat top left;*/
 }
 .cb-slideshow li {
 	list-style: none;
@@ -1667,7 +1668,7 @@ h6{font-size:18px!important;line-height:24px!important;letter-spacing:-1px;font-
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-	-webkit-backface-visibility: hidden; backface-visibility:hidden;
+		-webkit-backface-visibility: hidden;
     -webkit-animation: imageAnimation 36s linear infinite 0s;
     -moz-animation: imageAnimation 36s linear infinite 0s;
     -o-animation: imageAnimation 36s linear infinite 0s;
@@ -2160,22 +2161,187 @@ h6{font-size:18px!important;line-height:24px!important;letter-spacing:-1px;font-
 	height: 100%;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*================career-top-slider==============*/
+.career-top-slider {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	height: 100vh;
+	background: url(../Images/career-top-bg.jpg);
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.career-top-slider .row {
+	height: 730px;
+}
+.career-top-slider h1 {
+	margin: 0 0 30px !important;
+}
+.why-best-choose-main {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	padding: 150px 0 150px;
+	text-align: center;
+}
+.why-best-choose-main h2 {
+	margin: 0 0 30px;
+}
+.why-best-choose-con {
+	width: 70%;
+	margin: 0 auto;
+	/*padding: 50px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+	border-radius: 30px;*/
+}
+.ethical-img img {
+	height: 315px;
+	object-fit: cover;
+	border-radius: 30px 30px 0 0;
+	width: 100%;
+}
+.culture-work-img img {
+	height: 315px;
+	object-fit: cover;
+	border-radius: 30px 30px 0 0;
+	width: 100%;
+}
+.ethical-career-box, .culture-work-box {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	border-radius: 30px;
+	border: 1px solid #ccc;
+}
+.ethical-career-box .ethical-career-con, .culture-work-box .ethical-career-con {
+	padding: 30px;
+}
+.ethical-career-box .ethical-career-con p, .culture-work-box .ethical-career-con p {
+	min-height: 70px;
+	margin: 0;
+}
+.ethical-career-box .ethical-career-con h4, .culture-work-box .ethical-career-con h4 {
+	margin: 0 0 20px;
+}
+.ethical-career-main {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	margin: 50px 0 0;
+}
+.our-work-ethics-main {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	padding: 0 0 150px;
+}
+.work-ethics-main {
+	display: inline-flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.ethics {
+	position: relative;
+	width: 33.33%;
+	margin-bottom: -1px;
+}
+.ethics-con {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	padding: 30px;
+	background: rgba(0, 0, 0, 0.3);
+	display: flex;
+	align-items: flex-end;
+}
+.ethics:hover .ethics-con {
+	background: rgba(0, 90, 152, 0.5);
+}
+.ethics-con h4 {
+	color: #fff;
+}
+.we-are-hiring-main {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	padding: 150px 0 150px;
+	background: #f5f5f5;
+}
+.we-are-hiring {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	margin: 50px 0 0;
+}
+.hiring-box {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	border-radius: 20px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+	padding: 25px;
+	border: 1px solid #024D81;
+	background: #fff;
+	margin: 0 0 10px;
+}
+.hiring-box a {
+	margin: 25px auto -50px;
+	width: 100%;
+	text-align: center;
+}
+.hiring-box h5 {
+	margin: 0 0 20px;
+	padding: 0 0 20px;
+	border-bottom: 1px solid #ccc;
+}
+.hiring-box p {
+	margin: 0 0 20px;
+}
+.hiring-box p span {
+	font-weight: 600;
+	width: 50%;
+	display: inline-block;
+}
+.our-base {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin: 10px 0 0;
+}
+.our-base a {
+	display: inline-flex;
+	align-items: center;
+	margin: 0 15px;
+	text-decoration: none;
+	padding: 15px 40px;
+	border-radius: 30px;
+	border: 1px solid #024D81;
+}
+.our-base a img {
+	margin-right: 15px;
+}
+.our-base-main {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	padding: 150px 0;
+}
+.our-base-con {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	padding: 50px;
+	border-radius: 30px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+	/*background: url(../Images/our-base-img.png);
+	background-repeat: repeat;
+	background-size: 30%;*/
+}
 
 
 
