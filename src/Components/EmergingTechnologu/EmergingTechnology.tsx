@@ -15,29 +15,29 @@ function EmergingTechnology() {
       <div className="row">
          <div className="emerging-technology-con">
             <div className="con-head text-center">
-               <h2>Emerging Technology Services</h2>
-               <h5>We provide cutting edge web and mobile app solutions</h5>
+               <h2>Our Suite of Emerging Web 3.0 IT Solutions</h2>
+               <h5>Businesses are advancing and shifting their traditional workflows and approaches to digital Web 3.0 platforms. </h5>
             </div>
             <div className="emerging-technology-main">
                <div className="technology box1">
                   <img src={aiml}/>
                   <div className="technology-con">
                      <h3>AI & ML</h3>
-                     <p>Team of creative developers, smart leaders, digital content creators, brand marketers, working together to provide all types of software</p>
+                     <p>Refactor existing business processes and improve the decision-making approach of your organization with the power of AI/ML capabilities</p>
                   </div>
                </div>
                <div className="technology box2">
                   <img src={nft}/>
                   <div className="technology-con">
                      <h3>NFT</h3>
-                     <p>Team of creative developers, smart leaders, digital content creators, brand marketers, working together to provide all types of software</p>
+                     <p>Get a new pool of services with a robust foundation and countless benefits for transactions with the non-fungible token development solutions</p>
                   </div>
                </div>
                <div className="technology box3">
                   <img src={iot}/>
                   <div className="technology-con">
                      <h3>IOT</h3>
-                     <p>Team of creative developers, smart leaders, digital content creators, brand marketers, working together to provide all types of software</p>
+                     <p>Establish instantaneous and cognitive communication between two smart devices with the IoT integration servicese</p>
                   </div>
                </div>
                <div className="technology box4">
@@ -51,28 +51,29 @@ function EmergingTechnology() {
                   <img src={blockchain}/>
                   <div className="technology-con">
                      <h3>Blockchain</h3>
-                     <p>Team of creative developers, smart leaders, digital content creators, brand marketers, working together to provide all types of software</p>
+                     <p>Build high-end secure IT solutions that enhance the visibility and security of your business-critical processes with the help of Blockchain technology.</p>
                   </div>
                </div>
                <div className="technology box6">
                   <img src={bigdata}/>
                   <div className="technology-con">
                      <h3>Big Data</h3>
-                     <p>Team of creative developers, smart leaders, digital content creators, brand marketers, working together to provide all types of software</p>
+                     <p>Business Intelligence & Analytics solutions, help businesses be intelligent to make quick decisions with help of enormous, secured data to thrive in this rapidly evolving market.
+</p>
                   </div>
                </div>
                <div className="technology box7">
                   <img src={chatbot}/>
                   <div className="technology-con">
                      <h3>Chatbot</h3>
-                     <p>Team of creative developers, smart leaders, digital content creators, brand marketers, working together to provide all types of software</p>
+                     <p>Give your clients the flexibility to reach out to you and inquire about your digital services as per their conveniences by integrating the online website chatbot services.</p>
                   </div>
                </div>
                <div className="technology box8">
                   <img src={arvr}/>
                   <div className="technology-con">
                      <h3>AR/VR</h3>
-                     <p>Team of creative developers, smart leaders, digital content creators, brand marketers, working together to provide all types of software</p>
+                     <p>Convert your imagination into the real project by gathering and making use of data at scale to generate stimulated graphics to enable virtual/augmented real experience, like metaverse - an immersive internet experience</p>
                   </div>
                </div>
             </div>

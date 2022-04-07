@@ -31,16 +31,16 @@ function Home() {
     <ReadOurReview/>
     <ServicesMain/>
     <TechnologiesWeWork/>
-    <HomePortFolio/>
+    {/* <HomePortFolio/> */}
     <HowWeWork/>
     <TrustedBy/>
-    <CustomerSupport/>
+    {/* <CustomerSupport/> */}
     <FeaturesOn/>
     <IndustriesWeServe/>
-    <ServingFortune/>
-    <WordsClient/>
+    {/* <ServingFortune/> */}
+    {/* <WordsClient/> */}
     <AreYouStartUP/>
-    <AcrossTheWorld/>
+    {/* <AcrossTheWorld/> */}
     <DiscussWithUs/>
     <OurClientSays/>
     </>

@@ -15,8 +15,10 @@ function FeaturesOn() {
          <div className="row gy-5">
             <div className="col-lg-6 col-md-12">
                <div className="con-head text-left">
-                  <h2>Accredited and <br/>featured on</h2>
-                  <p>We are acclaimed as a premier software development company by leaders across a range of industries we have worked in. We are recognized for our strong set of values, professional team, and commitment to quality. </p>
+                  <h2>PragetX Wall of <br/>Recognitions </h2>
+                  <p>Since the foundation, we have helped 45+ global brands to achieve their business objectives with our creative approach and tailored IT solutions. 
+providing them with quality IT support and top-notch development services and solutions.
+ </p>
                </div>
             </div>
             <div className="col-lg-3 col-md-6">

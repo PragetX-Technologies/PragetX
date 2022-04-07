@@ -12,10 +12,10 @@ function HeaderTopSlider() {
    <div className="container">
       <div className="row">
          <div className="header-top-con">
-            <h1>Best Agile <span>Collaboration</span> in <br/>the Age of Remote Work</h1>
-            <h6>We construct a masterpiece of websites and mobile applications for businesses, whether it’s a small startup, mid-enterprise or a fortune 500 company.</h6>
-            <a href="#" className="btn">Get Developers Now <i className="fa fa-angle-right" aria-hidden="true"></i></a>
-            <div className="logos-review">
+            <h1>Emerging IT Solutions  <span>IT Solutions</span> in <br/>for Modern Businesses</h1>
+            <h6>Leverage the IT professionals at PragetX to help you ease up your digital transformation journey with emerging technologies, like Web 3.0.</h6>
+            <a href="#" className="btn">Inquire Now! <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+            {/* <div className="logos-review">
                <div className="r-logo1">
                   <img src={GoodFirms}/>
                </div>
@@ -31,7 +31,7 @@ function HeaderTopSlider() {
                <div className="r-logo1">
                   <img src={MobileAppDaily}/>
                </div>
-            </div>
+            </div> */}
          </div>
       </div>
    </div>

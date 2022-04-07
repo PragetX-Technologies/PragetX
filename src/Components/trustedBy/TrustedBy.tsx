@@ -47,8 +47,8 @@ function TrustedBy() {
          </div>
          <div className="col-lg-6 col-md-12">
             <div className="trusted-by-con">
-               <h2>Trusted By 200+ <br/>Enterprises and Startups</h2>
-               <p>With innovative ideas and capability to build scalable and high performing software & apps along with constant support, we, the globally renowned custom software development company, help our clients reach market quickly and achieve their goals. </p>
+               <h2>Our Trusted Customers</h2>
+               <p>With innovative thinking and a positive attitude toward dealing with industrial problems in mind, developers at PragetX strive to provide clients with the best quality assistance till the project meets the business objectives. </p>
                <a href="#" className="btn">Get In Touch <i className="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
          </div>

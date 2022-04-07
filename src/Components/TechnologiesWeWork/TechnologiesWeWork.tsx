@@ -12,7 +12,7 @@ function TechnologiesWeWork() {
     <div className="technologies-we-work-con">
        <div className="container">
           <div className="con-head text-center">
-             <h2>Technologies we work with</h2>
+             <h2>Modern Technologies We Work With</h2>
              <h5>We provide cutting edge web and mobile app solutions</h5>
           </div>
           <div className="technologies-we-work-inner">

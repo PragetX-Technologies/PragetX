@@ -11,8 +11,8 @@ function ReadOurReview() {
     <div className="container">
        <div className="read-our-review-con">
           <div className="con-head text-center">
-             <h2>Read Our Review on.</h2>
-             <h5>We provide cutting edge web and mobile app solutions</h5>
+             <h2>Know What Our Clients and Team Have to Say About PragetX</h2>
+             <h5>Our culture is what makes us the right fit for your business to partner with us for the next-generation IT services we provide.</h5>
           </div>
           <div className="read-our-review">
              <div className="row gy-5">

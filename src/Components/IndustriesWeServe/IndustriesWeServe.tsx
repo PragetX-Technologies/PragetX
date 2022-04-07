@@ -8,7 +8,7 @@ function IndustriesWeServe() {
     <div className="container">
        <div className="con-head text-center">
           <h2>Industries We Serve</h2>
-          <h5>We provide cutting edge web and mobile app solutions</h5>
+          <h5>The aim of PragetX to digitally transform the business is not limited any certain industry. </h5>
        </div>
        <div className="industries-we-serve">
           <div className="row gy-5">
@@ -52,7 +52,8 @@ function IndustriesWeServe() {
                       <div className="industries-serve-box" style={{background: "url(" + img + ")",}} >
                          <div className="serve-box-con">
                             <h3>Government</h3>
-                            <p>We are acclaimed as a premier software development company by leaders across a range of industries we have worked in. We are recognized for our strong set of values, professional team, and commitment to quality. </p>
+                            <p>Building IT solutions by understanding the data-confidentiality needs that any government & public sector would need to function efficiently with hassle-free digital service experiences.
+ </p>
                             <a href="#" className="btn">Explore <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                          </div>
                       </div>
@@ -70,7 +71,7 @@ function IndustriesWeServe() {
                       <div className="industries-serve-box" style={{background: "url(" + img + ")",}}>
                          <div className="serve-box-con">
                             <h3>Finance</h3>
-                            <p>We are acclaimed as a premier software development company by leaders across a range of industries we have worked in. We are recognized for our strong set of values, professional team, and commitment to quality. </p>
+                            <p>Providing banking and financial sectors with powerful computational IT solutions in compliance with the government body, providing users with faster, reliable, and precise operation experiences </p>
                             <a href="#" className="btn">Explore <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                          </div>
                       </div>
@@ -79,7 +80,7 @@ function IndustriesWeServe() {
                       <div className="industries-serve-box" style={{background: "url(" + img + ")",}}>
                          <div className="serve-box-con">
                             <h3>Manufacturing</h3>
-                            <p>We are acclaimed as a premier software development company by leaders across a range of industries we have worked in. We are recognized for our strong set of values, professional team, and commitment to quality. </p>
+                            <p>Implementing the streamlined and well-programed industry automation solutions that can help them roll out the targeted production mark and lead the sector. </p>
                             <a href="#" className="btn">Explore <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                          </div>
                       </div>
@@ -88,7 +89,7 @@ function IndustriesWeServe() {
                       <div className="industries-serve-box"style={{background: "url(" + img + ")",}}>
                          <div className="serve-box-con">
                             <h3>Education</h3>
-                            <p>We are acclaimed as a premier software development company by leaders across a range of industries we have worked in. We are recognized for our strong set of values, professional team, and commitment to quality. </p>
+                            <p>Helping educational organizations store and manage the students' essential data effectively by providing software solutions with cybersecurity modules. </p>
                             <a href="#" className="btn">Explore <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                          </div>
                       </div>
@@ -97,7 +98,7 @@ function IndustriesWeServe() {
                       <div className="industries-serve-box" style={{background: "url(" + img + ")",}}>
                          <div className="serve-box-con">
                             <h3>Communication</h3>
-                            <p>We are acclaimed as a premier software development company by leaders across a range of industries we have worked in. We are recognized for our strong set of values, professional team, and commitment to quality. </p>
+                            <p>Ensuring the non-stop streaming with live data updates with online streaming solutions made in MEAN/MERN stack that are all device friendly and easy to maintain </p>
                             <a href="#" className="btn">Explore <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                          </div>
                       </div>
@@ -106,7 +107,8 @@ function IndustriesWeServe() {
                       <div className="industries-serve-box" style={{background: "url(" + img + ")",}}>
                          <div className="serve-box-con">
                             <h3>Supply Chain</h3>
-                            <p>We are acclaimed as a premier software development company by leaders across a range of industries we have worked in. We are recognized for our strong set of values, professional team, and commitment to quality. </p>
+                            <p>Helping logistics, fleet maintenance, and supply chain sectors implement real-time, on-demand, cloud applications to track and get notified of their shipments.
+                           </p>
                             <a href="#" className="btn">Explore <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                          </div>
                       </div>
@@ -115,7 +117,8 @@ function IndustriesWeServe() {
                       <div className="industries-serve-box" style={{background: "url(" + img + ")",}}>
                          <div className="serve-box-con">
                             <h3>Health Care</h3>
-                            <p>We are acclaimed as a premier software development company by leaders across a range of industries we have worked in. We are recognized for our strong set of values, professional team, and commitment to quality. </p>
+                            <p>Building on-demand healthcare IT solutions in compliance with HIPAA that can help healthcare entities shift and manage their work digitally.
+ </p>
                             <a href="#" className="btn">Explore <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                          </div>
                       </div>
@@ -124,7 +127,8 @@ function IndustriesWeServe() {
                       <div className="industries-serve-box" style={{background: "url(" + img + ")",}}>
                          <div className="serve-box-con">
                             <h3>Startup</h3>
-                            <p>We are acclaimed as a premier software development company by leaders across a range of industries we have worked in. We are recognized for our strong set of values, professional team, and commitment to quality. </p>
+                            <p>No matter to which industry your startup belongs to, we at PragetX have industry-friendly IT solutions that are in compliance with the respective industry regulations.
+                            </p>
                             <a href="#" className="btn">Explore <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                          </div>
                       </div>

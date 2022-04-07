@@ -16,7 +16,7 @@ function ServicesMain() {
       <div className="services-con">
          <div className="con-head text-center">
             <h2>Services We Offer</h2>
-            <h5>We provide cutting edge web and mobile app solutions</h5>
+            <h5>Cutting-edge Enterprise IT solutions for a better customer experience, building brand reputation and leading to better revenue growth.</h5>
          </div>
          <div className="services-inner">
             <div className="service-list-box">
