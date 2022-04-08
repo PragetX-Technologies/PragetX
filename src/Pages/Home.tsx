@@ -40,7 +40,7 @@ function Home() {
     {/* <ServingFortune/> */}
     {/* <WordsClient/> */}
     <AreYouStartUP/>
-    {/* <AcrossTheWorld/> */}
+    <AcrossTheWorld/>
     <DiscussWithUs/>
     <OurClientSays/>
     </>
