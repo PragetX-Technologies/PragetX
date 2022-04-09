@@ -6,8 +6,8 @@ function AcrossTheWorld() {
     <section className="across-the-world-main">
    <div className="container-fluid">
       <div className="con-head text-center">
-         <h2>We Work Across the World</h2>
-         <h5>We provide cutting edge web and mobile app solutions</h5>
+         <h2>Our Global Footprints</h2>
+         <h5>Within this shorter timeline, PragetX has managed to deliver 45+ projects successfully to clients across the world.</h5>
       </div>
       <div className="map">
          <img src={map}/>

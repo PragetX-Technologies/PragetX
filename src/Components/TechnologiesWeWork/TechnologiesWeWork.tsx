@@ -13,7 +13,7 @@ function TechnologiesWeWork() {
        <div className="container">
           <div className="con-head text-center">
              <h2>Modern Technologies We Work With</h2>
-             <h5>We provide cutting edge web and mobile app solutions</h5>
+             <h5>Be competitive in this intense market competition by adopting modern business IT solutions.</h5>
           </div>
           <div className="technologies-we-work-inner">
              <ul className="nav nav-tabs" id="myTab" role="tablist">

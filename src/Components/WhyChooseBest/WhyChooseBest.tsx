@@ -8,8 +8,8 @@ function WhyChooseBest() {
    <div className="container">
       <div className="row">
          <div className="why-best-choose-con">
-            <h2>Why Best Choose to Work With Us.</h2>
-            <p>At PragetX, we give more priority to people who loves their work, have this startup mindset, positive attitude towards learning new things, also has creativity, focus, passion, and more importantly who like to work as a team. We believe, for the company we serve, best and fast work deployment is still the top priority.</p>
+            <h2>Why Work With PragetX?</h2>
+            <p>At PragetX, we ensure that our team has a great balance between personal and corporate life. Being a thriving IT firm, we give priority to people with a startup mindset, a positive attitude towards learning new things, higher grasping power, creativity, focus, passion, and most importantly, team player quality. We value quality work delivery within the promised timeline.</p>
          </div>
       </div>
       <div className="ethical-career-main">
@@ -20,8 +20,8 @@ function WhyChooseBest() {
                      <img src={ethical}/>
                   </div>
                   <div className="ethical-career-con">
-                     <h4>Build an Ethical Career with PragetX.</h4>
-                     <p>Learning from each other on each step of our journey and keeping the company’s mission, vision, and values in mind for life helps build an ethical career for anyone who is goal-oriented.</p>
+                     <h4>Accelerate Your Career with PragetX</h4>
+                     <p>Continuous learning, analytical skills, and following the company’s mission, vision, and values at the workplace would help your/any goal-oriented personality build an ethical career.</p>
                   </div>
                </div>
             </div>
@@ -31,8 +31,8 @@ function WhyChooseBest() {
                      <img src={cultureWork}/>
                   </div>
                   <div className="ethical-career-con">
-                     <h4>Best Culture and Work Environment.</h4>
-                     <p>We like to bring creativity to life for our team members. Belief in the culture of our company makes it the best place to work.</p>
+                     <h4>Best Culture and Work Environment</h4>
+                     <p>We like to motivate our team in every difficult phase, giving them the confidence to 'Just Do It!', and bring out their creativity, like a friend, mentor, or well-wisher would do. This culture at PragetX makes it a great place to work.</p>
                   </div>
                </div>
             </div>

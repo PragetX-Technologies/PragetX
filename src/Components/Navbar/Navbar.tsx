@@ -36,7 +36,7 @@ function Navbar() {
                     </li>
                 </ul>
                 <form className="d-flex">
-                    <a href="" className="btn">Get In Touch</a>
+                    <a href="/ContactUs" className="btn">Contact Us</a>
                 </form>
                 </div>
             </nav>

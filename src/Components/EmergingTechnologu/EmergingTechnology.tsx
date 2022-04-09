@@ -57,8 +57,8 @@ function EmergingTechnology() {
                <div className="technology box6">
                   <img src={bigdata}/>
                   <div className="technology-con">
-                     <h3>Big Data</h3>
-                     <p>Business Intelligence & Analytics solutions, help businesses be intelligent to make quick decisions with help of enormous, secured data to thrive in this rapidly evolving market.
+                     <h3>Business Intelligence and Analytics</h3>
+                     <p>Evolve your business decision-making abilities with the help of actionable data analytical insights and stay ahead in this intense market competition. 
 </p>
                   </div>
                </div>

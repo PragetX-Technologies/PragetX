@@ -16,8 +16,7 @@ function FeaturesOn() {
             <div className="col-lg-6 col-md-12">
                <div className="con-head text-left">
                   <h2>PragetX Wall of <br/>Recognitions </h2>
-                  <p>Since the foundation, we have helped 45+ global brands to achieve their business objectives with our creative approach and tailored IT solutions. 
-providing them with quality IT support and top-notch development services and solutions.
+                  <p>Since the foundation, we have helped 45+ global brands to achieve their business objectives with our creative approach and tailored IT solutions.
  </p>
                </div>
             </div>

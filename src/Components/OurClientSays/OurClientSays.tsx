@@ -7,7 +7,7 @@ function OurClientSays() {
     <div className="container">
        <div className="con-head text-center">
           <h2>What Our Clients Say.</h2>
-          <h5>We provide cutting edge web and mobile app solutions</h5>
+          <h5>Take a glance at what our clients have to share about the quality of our IT services.</h5>
        </div>
        <div className="clients-slider">
           <div id="recipeCarousel" className="carousel slide" data-bs-ride="carousel">

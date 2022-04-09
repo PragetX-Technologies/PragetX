@@ -29,7 +29,7 @@ function OurWorkEthics() {
                <div className="ethics box2">
                   <img src={nevercomplain}/>
                   <div className="ethics-con">
-                     <h4>Never Ever Complain</h4>
+                     <h4>Feedback is All Welcomed</h4>
                   </div>
                </div>
                <div className="ethics box3">
@@ -41,7 +41,7 @@ function OurWorkEthics() {
                <div className="ethics box4">
                   <img src={bringsuggestions}/>
                   <div className="ethics-con">
-                     <h4>Bring Suggestions If Any</h4>
+                     <h4>Be Suggestive</h4>
                   </div>
                </div>
                <div className="ethics box5">

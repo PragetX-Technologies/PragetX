@@ -6,7 +6,7 @@ function WeAreHiring() {
     <div className="container">
        <div className="con-head text-center">
           <h2>We're Hiring!</h2>
-          <h5>We provide cutting edge web and mobile app solutions</h5>
+          <h5>We at Pragetx are looking for skillful and talented tech geniuses and creative personalities to be a part of this evolving and scaling team of visionary leaders who can bring value to this company that has successfully delivered 45+ projects within a shorter time.</h5>
        </div>
        <div className="we-are-hiring">
           <div className="row gy-5">
