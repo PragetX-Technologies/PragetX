@@ -1,4 +1,7 @@
-*{outline:none !important;}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{outline:none !important;
+	font-family: 'Open Sans', sans-serif;
+}
 a{color:#000;outline:0}
 a p{color:#000}
 a:hover{color:#024D81}

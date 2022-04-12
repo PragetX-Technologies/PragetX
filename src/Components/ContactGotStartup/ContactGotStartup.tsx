@@ -11,7 +11,7 @@ function ContactGotStartup() {
        <div className="row gy-5">
           <div className="col-lg-7 col-md-12">
              <div className="con-head">
-                <h2>Got a startup idea & <br/>need to get it validated?</h2>
+                <h2>Have a startup idea & <br/>need to discuss with us?</h2>
                 <p>Let us give you our honest opinion.</p>
                 <h5>Book your <b>FREE 30 minutes</b> consultation with:</h5>
                 <a href="https://calendly.com/pragetx" className="btn">Consult our experts <i className="fa fa-angle-right" aria-hidden="true"></i></a>

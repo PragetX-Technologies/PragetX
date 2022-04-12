@@ -20,9 +20,9 @@ function OurMissionVision() {
             <div className="col-lg-6 col-md-12">
                <div className="our-mission-con">
                   <h3>PragetX Mission</h3>
-                  <h6>Our Aim is: You Grow, We Grow.</h6>
-                  <p>Thriving to ease the workload of companies and individuals by providing cutting-edge, innovative and creative, hassle-free software developement and marketing solutions.</p>
-                  <h5>We want compines not to compromise their development budget by hiring freelancers even while outsourcing.</h5>
+                  <h6>You Grow, We Grow.</h6>
+                  <p>Thriving to ease the workload of companies and individuals by providing cutting-edge, innovative, hassle-free software development and marketing solutions.</p>
+                  <p>We want companies to not compromise on anything because of any factor but to aim for higher and better results in their development budget.</p>
                </div>
             </div>
          </div>
@@ -32,8 +32,7 @@ function OurMissionVision() {
             <div className="col-lg-6 col-md-12">
                <div className="our-mission-con">
                   <h3>PragetX Vision</h3>
-                  <p>Our vision is to develop next generation products and service platforms using emerging technologies like AI, ML, Big Data, IoT, VR, AR, Blockchain, NFT and much more, by solving problems to make people and companies lives easier, more productive and much more meaningful than ever before. </p>
-                  <p>Our goal is to help businesses grow through the lens of best management and team of developers one can dream of. Want to make PragetX, a best place to work with best culture one should have.</p>
+                  <p>Our vision is to empower businesses with emerging IT solutions, helping them solve their concerning problems, ease their workloads, and thrive in their digital transformation journey. This way, we can make PragetX - the best and your dream team of developers to collaborate with. </p>
                </div>
             </div>
             <div className="col-lg-6 col-md-12">

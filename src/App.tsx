@@ -202,7 +202,6 @@ function App() {
         <Route path="/OurCompany" element={<OurCompany />} />
       </Routes>
     </BrowserRouter>
-    <BottomContactForm/>
     <Footer/>
     </>
   );

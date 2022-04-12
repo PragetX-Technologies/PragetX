@@ -1,4 +1,5 @@
 import React from 'react'
+import BottomContactForm from '../Components/BottomContactForm/BottomContactForm'
 import ContactForm from '../Components/ContactForm/ContactForm'
 import ContactGotStartup from '../Components/ContactGotStartup/ContactGotStartup'
 import ContactOurOffice from '../Components/ContactOurOffice/ContactOurOffice'
@@ -15,6 +16,8 @@ function ContactUs() {
       <OurClientSays/>
       <WordsClient/>
       <ContactOurOffice/>
+    <BottomContactForm/>
+
     </>
   )
 }

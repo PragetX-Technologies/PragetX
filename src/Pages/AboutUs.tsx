@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutUsCon from '../Components/AboutUsCon/AboutUsCon'
+import AboutusTag from '../Components/AboutusTag/AboutusTag'
 import AboutUsTagLine from '../Components/AboutUsTagLine/AboutUsTagLine'
 import AboutUsTopSlider from '../Components/AboutUsTopSlider/AboutUsTopSlider'
 import AreYouStartUP from '../Components/AreYouStartUP/AreYouStartUP'
@@ -12,6 +13,7 @@ import FeaturesOn from '../Components/FeaturesOn/FeaturesOn'
 import Insights from '../Components/Insights/Insights'
 import OurMissionVision from '../Components/OurMissionVision/OurMissionVision'
 import ReadOurReview from '../Components/ReadOurReview/ReadOurReview'
+import ReadOurReviewsAboutus from '../Components/ReadOurReviewsAboutus/ReadOurReviewsAboutus'
 import TrustedBy from '../Components/trustedBy/TrustedBy'
 import WorkLife from '../Components/WorkLife/WorkLife'
 
@@ -19,20 +21,21 @@ function AboutUs() {
   return (
       <>
         <AboutUsTopSlider/>
-        <AboutUsTagLine/>
-        <ReadOurReview/>
+        {/* <AboutUsTagLine/> */}
+        <ReadOurReviewsAboutus/>
         <AboutUsCon/>
+        <AboutusTag/>
         <AreYouStartUP/>
         <OurMissionVision/>
         <AtPragetX/>
+        <CoreVal/>
         <CompanyVideo/>
         <FeaturesOn/>
         <TrustedBy/>
         <Insights/>
-        <WorkLife/> 
+        {/* <WorkLife/>  */}
         <CustomerSupport/>
         <DiscussWithUs/>
-        <CoreVal/>
       </>
       )
     }

@@ -19,6 +19,7 @@ import IndustriesWeServe from '../Components/IndustriesWeServe/IndustriesWeServe
 import CustomerSupport from '../Components/CustomerSupport/CustomerSupport'
 import TrustedBy from '../Components/trustedBy/TrustedBy'
 import ServingFortune from '../Components/ServingFortune/ServingFortune'
+import BottomContactForm from '../Components/BottomContactForm/BottomContactForm'
 
 function Home() {
   return (
@@ -43,6 +44,8 @@ function Home() {
     <AcrossTheWorld/>
     <DiscussWithUs/>
     <OurClientSays/>
+    <BottomContactForm/>
+
     </>
   )
 }
