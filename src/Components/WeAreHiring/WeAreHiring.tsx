@@ -73,36 +73,10 @@ function WeAreHiring() {
       <div className="modal-body">
          <div className="hire-modal">
             <div className="row gy-5">
-               <div className="col-lg-6 col-md-12">
-                  <div className="hire-modal-con">
-                     <h3>Sr. PPC Specialist</h3>
-                     <p>Ahmedabad</p>
-
-                     <h4>Job description</h4>
-                     <ul>
-                        <li>Wireframes / Balsamiq / Mockups / Mind maps,</li>
-                        <li>Requirement gathering / Project Planning / Task Management</li>
-                        <li>Experience with Project Management Tools</li>
-                        <li>Experience in Mobile Apps</li>
-                        <li>Coordinating project schedules, resources, equipment and information</li>
-                     </ul>
-
-                     <h5>Duties and responsibilities(PM)</h5>
-                     <ul>
-                        <li>Coordinate internal resources and third parties/vendors for the flawless execution of projects</li>
-                        <li>Ensure that all projects are delivered on-time, within the scope and within budget</li>
-                        <li>Assist in the definition of project scope and objectives, involving all relevant stakeholders and ensuring technical feasibility</li>
-                        <li>Ensure resource availability and allocation</li>
-                        <li>Develop a detailed project plan to monitor and track progress</li>
-                        <li>Manage changes to the project scope, project schedule and project costs using appropriate verification techniques</li>
-                        <li>Measure project performance using appropriate tools and techniques</li>
-                        <li>Report and escalate to management as needed</li>
-                        <li>Manage the relationship with the client and all stakeholders</li>
-                        <li>Perform risk management to minimize project risks</li>
-                     </ul>
-                  </div>
-               </div>
-               <div className="col-lg-6 col-md-12">
+               {/* <div className="col-lg-6 col-md-12">
+   
+               </div> */}
+               <div className="col-lg-12 col-md-12">
                   <div className="hire-modal-from">
                      <h3>Apply For Job:</h3>
                      <form>
