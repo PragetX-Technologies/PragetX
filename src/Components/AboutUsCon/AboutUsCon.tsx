@@ -36,7 +36,7 @@ function AboutUsCon() {
                       <div className="col-lg-4 col-md-6 col-sm-12">
                          <div className="about-counter">
                             <div className="number-c">7+</div>
-                            <div className="number-l">Countries</div>
+                            <div className="number-l">Countries we serve</div>
                          </div>
                       </div>
                       <div className="col-lg-4 col-md-6 col-sm-12">
@@ -48,7 +48,7 @@ function AboutUsCon() {
                       <div className="col-lg-4 col-md-6 col-sm-12">
                          <div className="about-counter">
                             <div className="number-c">30+</div>
-                            <div className="number-l">Experienced IT Professionals</div>
+                            <div className="number-l">IT Professionals</div>
                          </div>
                       </div>
                       <div className="col-lg-4 col-md-6 col-sm-12">
