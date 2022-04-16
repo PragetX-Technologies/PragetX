@@ -14,7 +14,7 @@ function ContactUs() {
       <ContactForm/>
       <ContactGotStartup/>
       <OurClientSays/>
-      <WordsClient/>
+      {/* <WordsClient/> */}
       <ContactOurOffice/>
     <BottomContactForm/>
 

@@ -44,7 +44,7 @@ function EmergingTechnology() {
                   <img src={wearable}/>
                   <div className="technology-con">
                      <h3>Wearable</h3>
-                     <p>Team of creative developers, smart leaders, digital content creators, brand marketers, working together to provide all types of software</p>
+                     <p>Customize your electronic devices that can be worn as accessories, embedded in clothing, implanted in daily usable things</p>
                   </div>
                </div>
                <div className="technology box5">

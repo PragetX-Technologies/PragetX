@@ -54,37 +54,27 @@ function BottomContactForm() {
                <form>
                   <div className="form-row">
                      <div className="col-lg-6 col-md-12">
-                      <input type="text" className="form-control" placeholder="Name"/>
+                      <input type="text" className="form-control" placeholder="Your Name"/>
                      </div>
                      <div className="col-lg-6 col-md-12">
                       <input type="text" className="form-control" placeholder="Email Address"/>
                      </div>
                      <div className="col-lg-6 col-md-12">
-                        <select className="form-select" aria-label="Default select example">
-                           <option selected>Select Gender</option>
-                           <option value="1">One</option>
-                           <option value="2">Two</option>
-                           <option value="3">Three</option>
-                        </select>
+                      <input type="text" className="form-control" placeholder="Contact Number"/>
                      </div>
                      <div className="col-lg-6 col-md-12">
-                      <input type="text" className="form-control" placeholder="Position"/>
+                      <input type="text" className="form-control" placeholder="Alternative Contact Number"/>
                      </div>
                      <div className="col-lg-6 col-md-12">
-                      <input type="text" className="form-control" placeholder="Current City"/>
-                     </div>
+                      <input type="text" className="form-control" placeholder="Please Share Your Portfolio Hyperlink"/>
+                      <span style={{color: "#fff",fontSize: "12px"}}>(Git/Dribble/Behance/Pinterest/Blog/Medium)</span>
+                     </div>                           
                      <div className="col-lg-6 col-md-12">
-                      <input type="text" className="form-control" placeholder="Contact"/>
-                     </div>
-                     <div className="col-lg-6 col-md-12">
-                      <input type="text" className="form-control" placeholder="Linkedin Profile"/>
-                     </div>
-                     <div className="col-lg-6 col-md-12">
-                      <input type="text" className="form-control" placeholder="GitHub Profile"/>
+                      <input type="text" className="form-control" placeholder="Cover Letter"/>
                      </div>
                      <div className="col-lg-12 col-md-12">
                         <div className="input-group custom-file-button">
-                           <label className="input-group-text" htmlFor="inputGroupFile">Attach a file</label>
+                           <label className="input-group-text" htmlFor="inputGroupFile">Upload Your CV/Resume</label>
                            <input type="file" className="form-control" id="inputGroupFile"/>
                         </div>
                      </div>
@@ -93,7 +83,7 @@ function BottomContactForm() {
                            <p>Will you be able to work both as Remote and in-person if required?</p>
                            <div className="d-flex">
                               <div className="radio">
-                                 <input id="radio-1" name="radio" type="radio" checked />
+                                 <input id="radio-1" name="radio" type="radio" checked/>
                                  <label htmlFor="radio-1" className="radio-label">Yes</label>
                               </div>
                               <div className="radio">
@@ -107,7 +97,7 @@ function BottomContactForm() {
                       <input type="text" className="form-control" placeholder="If selects no, then please mention any one: remote or in-person"/>
                      </div>
                   </div>
-                  <button type="submit" className="btn btn-primary">Send Message</button>
+                  <button type="submit" className="btn btn-primary">Submit Job Application</button>
                </form>
             </div>
          </div>

@@ -36,7 +36,7 @@ function Home() {
     <HowWeWork/>
     <TrustedBy/>
     {/* <CustomerSupport/> */}
-    <FeaturesOn/>
+    {/* <FeaturesOn/> */}
     <IndustriesWeServe/>
     {/* <ServingFortune/> */}
     {/* <WordsClient/> */}

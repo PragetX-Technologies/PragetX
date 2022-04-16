@@ -29,10 +29,10 @@ function AboutUs() {
         <OurMissionVision/>
         <AtPragetX/>
         <CoreVal/>
-        <CompanyVideo/>
-        <FeaturesOn/>
+        {/* <CompanyVideo/> */}
+        {/* <FeaturesOn/> */}
         <TrustedBy/>
-        <Insights/>
+        {/* <Insights/> */}
         {/* <WorkLife/>  */}
         <CustomerSupport/>
         <DiscussWithUs/>

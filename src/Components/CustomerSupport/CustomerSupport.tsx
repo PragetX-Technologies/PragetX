@@ -13,9 +13,9 @@ function CustomerSupport() {
          <div className="row gy-5">
             <div className="col-lg-6 col-md-12">
                <div className="customer-support-con">
-                  <h2>Customer Support & <br/>Services</h2>
+                  <h2>Custom Software & <br/>Services</h2>
                   <p>Our Highly skilled IT Service team is ready to support with very short period of time and also it will be available as on-demand.</p>
-                  <a href="#" className="btn">Contact US <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                  <a href="/Contactus" className="btn">Contact Us <i className="fa fa-angle-right" aria-hidden="true"></i></a>
                </div>
             </div>
             <div className="col-lg-6 col-md-12">

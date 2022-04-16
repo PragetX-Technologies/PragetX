@@ -23,38 +23,38 @@ function AboutUsCon() {
                    <div className="row gy-5 counter-number">
                       <div className="col-lg-4 col-md-6 col-sm-12">
                          <div className="about-counter">
-                            <div className="number-c">30+</div>
+                            <div className="number-c">35+</div>
                             <div className="number-l">No. Of Project</div>
                          </div>
                       </div>
                       <div className="col-lg-4 col-md-6 col-sm-12">
                          <div className="about-counter">
-                            <div className="number-c">35+</div>
+                            <div className="number-c">20+</div>
                             <div className="number-l">No. Of Clients</div>
                          </div>
                       </div>
                       <div className="col-lg-4 col-md-6 col-sm-12">
                          <div className="about-counter">
-                            <div className="number-c">50+</div>
-                            <div className="number-l">countries we serve</div>
-                         </div>
-                      </div>
-                      <div className="col-lg-4 col-md-6 col-sm-12">
-                         <div className="about-counter">
-                            <div className="number-c">42+</div>
-                            <div className="number-l">companys we work with</div>
-                         </div>
-                      </div>
-                      <div className="col-lg-4 col-md-6 col-sm-12">
-                         <div className="about-counter">
-                            <div className="number-c">30+</div>
-                            <div className="number-l">IT Professional</div>
+                            <div className="number-c">7+</div>
+                            <div className="number-l">Countries</div>
                          </div>
                       </div>
                       <div className="col-lg-4 col-md-6 col-sm-12">
                          <div className="about-counter">
                             <div className="number-c">10+</div>
-                            <div className="number-l">New Clients</div>
+                            <div className="number-l">Dedicated Resource Provided</div>
+                         </div>
+                      </div>
+                      <div className="col-lg-4 col-md-6 col-sm-12">
+                         <div className="about-counter">
+                            <div className="number-c">30+</div>
+                            <div className="number-l">Experienced IT Professionals</div>
+                         </div>
+                      </div>
+                      <div className="col-lg-4 col-md-6 col-sm-12">
+                         <div className="about-counter">
+                            <div className="number-c">530K+</div>
+                            <div className="number-l">lines of code written till now</div>
                          </div>
                       </div>
                    </div>

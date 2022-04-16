@@ -1,11 +1,21 @@
 import React from 'react'
+import Videoo from "../../Images/careertop.mp4";
 
 function CareerTopSlider() {
+   
   return (
-    <section className="header-top-slider career-top-slider">
+   <section className="header-top-slider career-top-slider">
+   <div className="career-video-bg">
+   <video
+  src={Videoo}
+  muted
+  autoPlay={true}
+  loop 
+ > </video>
+   </div>
    <div className="container">
       <div className="row">
-         <div className="header-top-con">
+      <div className="header-top-con">
             {/* <h1>Come Work With Us. Don’t <br/>Change the <span>World Alone.</span></h1> */}
             <h1>A Work Culture That Everyone <br/>                 <span>Wants to Be A Part of</span></h1>
             <a href="/" className="btn">Join Our Visionary Tteam <i className="fa fa-angle-right" aria-hidden="true"></i></a>

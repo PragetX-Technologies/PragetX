@@ -1,29 +1,30 @@
 import React from 'react'
-import S1CustomSoftware from "../../Images/s1custom-software.svg"
+import S1saasmvp from "../../Images/saas-mvp.svg"
 import s2marketing from "../../Images/s2marketing.svg"
 import s3webdevelopment from "../../Images/s3webdevelopment.svg"
-import s7branding from "../../Images/s7branding.svg"
+import s7qatesting from "../../Images/qa-testing.svg"
 import s6enterprisesoftware from "../../Images/s6enterprisesoftware.svg"
 import s8uiuxdesign from "../../Images/s8uiuxdesign.svg"
 import s4database from "../../Images/s4database.svg"
 import s5mobileapp from "../../Images/s5mobileapp.svg"
 import s9cloud from "../../Images/s9cloud.svg"
+import salesforce from "../../Images/salesforce.svg"
 
 function ServicesMain() {
   return (
-    <section className="services-main">
+   <section className="services-main">
    <div className="container">
       <div className="services-con">
          <div className="con-head text-center">
             <h2>Services We Offer</h2>
-            <h5>Cutting-edge Enterprise IT solutions for a better customer experience, building brand reputation and leading to better revenue growth.</h5>
+            <h5>We provide cutting edge web and mobile app solutions</h5>
          </div>
          <div className="services-inner">
             <div className="service-list-box">
                <div className="service-box1">
                   <a href="#">
-                     <img src={S1CustomSoftware}/>
-                     <p>Custom Software <br/>Development</p>
+                     <img src={S1saasmvp}/>
+                     <p>SaaS & MVP <br/>Development</p>
                   </a>
                </div>
                <div className="service-box2">
@@ -42,8 +43,8 @@ function ServicesMain() {
                </div>
                <div className="service-box1">
                   <a href="#">
-                     <img src={s7branding}/>
-                     <p>Branding</p>
+                     <img src={s7qatesting}/>
+                     <p>QA & Testing</p>
                   </a>
                </div>
             </div>
@@ -65,13 +66,13 @@ function ServicesMain() {
                <div className="service-box2">
                   <a href="#">
                      <img src={s4database}/>
-                     <p>Database <br/>Management</p>
+                     <p>SAP & Database <br/>Management</p>
                   </a>
                </div>
                <div className="service-box1">
                   <a href="#">
-                     <img src={s7branding}/>
-                     <p>Branding</p>
+                     <img src={salesforce}/>
+                     <p>Salesforce</p>
                   </a>
                </div>
             </div>
@@ -85,7 +86,7 @@ function ServicesMain() {
                <div className="service-box2">
                   <a href="#">
                      <img src={s9cloud}/>
-                     <p>Cloud <br/>Solution</p>
+                     <p>Cloud & DevOps</p>
                   </a>
                </div>
             </div>
