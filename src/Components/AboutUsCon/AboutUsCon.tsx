@@ -24,7 +24,7 @@ function AboutUsCon() {
                       <div className="col-lg-4 col-md-6 col-sm-12">
                          <div className="about-counter">
                             <div className="number-c">35+</div>
-                            <div className="number-l">No. Of Project</div>
+                            <div className="number-l">No. Of Projects</div>
                          </div>
                       </div>
                       <div className="col-lg-4 col-md-6 col-sm-12">
@@ -42,7 +42,7 @@ function AboutUsCon() {
                       <div className="col-lg-4 col-md-6 col-sm-12">
                          <div className="about-counter">
                             <div className="number-c">10+</div>
-                            <div className="number-l">Dedicated Resource Provided</div>
+                            <div className="number-l">Dedicated Resources Aligned</div>
                          </div>
                       </div>
                       <div className="col-lg-4 col-md-6 col-sm-12">
@@ -60,9 +60,7 @@ function AboutUsCon() {
                    </div>
                 </div>
              </div>
-             
           </div>
-          
        </div>
     </div>
  </section>
