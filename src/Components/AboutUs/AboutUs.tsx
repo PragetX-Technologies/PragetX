@@ -9,7 +9,7 @@ function AboutUs() {
           <div className="row gy-5">
              <div className="col-lg-6 col-md-12">
                 <div className="con-head">
-                   <h2>Build Your “Pragetanam” with PragetX</h2>
+                   <h2>Build Your Company's 'pragetanam' with PragetX</h2>
                    <h5>Our IT Solutions Define Flexibility & Reliability In All Working Environments</h5>
                    <p>A team of smart and passionate leaders and adaptive software developers, working all together to deliver customized IT solutions, like web & mobile app development, cloud computing, DevOps, and Enterprise IT solutions, with precisions to meet the vision to help you build your brand credibility. </p>
                    <a href="#" className="btn">Know More <i className="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -43,7 +43,7 @@ function AboutUs() {
              <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="about-counter">
                    <div className="number-c">10+</div>
-                   <div className="number-l">Dedicated External Resources Provided</div>
+                   <div className="number-l">Dedicated Resources Aligned</div>
                 </div>
              </div>
              <div className="col-lg-4 col-md-6 col-sm-12">

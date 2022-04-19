@@ -36,7 +36,7 @@ function EmergingTechnology() {
                <div className="technology box3">
                   <img src={iot}/>
                   <div className="technology-con">
-                     <h3>IOT</h3>
+                     <h3>IoT</h3>
                      <p>Establish instantaneous and cognitive communication between two smart devices with the IoT integration servicese</p>
                   </div>
                </div>
