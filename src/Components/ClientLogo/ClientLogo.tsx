@@ -22,75 +22,22 @@ import tm from "../../Images/c-tm.png"
 
 
 function ClientLogo() {
+    const ClientLogoArray=[img3m,chevron,cscs,tsmc,kpmg,png,pfizer,bankofamerica,underarmour,costco,exxonmobil,foxconn,cheinken,jpmorgan,nvidia,saudi,tmobile,walmart,tm]
+
   return (
    <section className="client-logo-slider">
    <div className="container-fluid">
        <div className="row">
            <div className="client-logo-con client-logo-slider">
                <div className="client-logo-review">
-                   <div className="r-logo1">
-                       <img src={img3m}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={chevron}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={cscs}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={tsmc}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={underarmour}/>
-                   </div>
-                   {/* <div className="r-logo1">
-                       <img src="image/c-tesla-motors.svg"/>
-                   </div> */}
-                   <div className="r-logo1">
-                       <img src={kpmg}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={png}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={pfizer}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={bankofamerica}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={costco}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={exxonmobil}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={foxconn}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={cheinken}/>
-                   </div>
-                   {/* <div className="r-logo1">
-                       <img src={cjnj}/>
-                   </div> */}
-                   <div className="r-logo1">
-                       <img src={jpmorgan}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={nvidia}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={saudi}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={tmobile}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={walmart}/>
-                   </div>
-                   <div className="r-logo1">
-                       <img src={tm}/>
-                   </div>
+                   {
+                       ClientLogoArray && ClientLogoArray.map((i)=>(
+                           
+                           <div className="r-logo1">
+                                <img src={i}/>
+                            </div>
+                       ))   
+                   }
                </div>
            </div>
        </div>

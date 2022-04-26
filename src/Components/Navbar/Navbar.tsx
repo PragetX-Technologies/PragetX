@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from '../../Images/logo.svg'
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
     <div className="container">
         <div className="row"> 
             <nav className="navbar navbar-expand-lg d-flex align-items-center">
-                <a className="navbar-brand" href="/"><img src={Logo}/></a>
+                <Link className="navbar-brand" to="/"><img src={Logo}/></Link>
                 <button className="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon d-flex"data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"><i className="fa-solid fa-bars m-auto"></i></span>
                 </button>
@@ -23,20 +24,20 @@ function Navbar() {
                         <a className="nav-link" href="#">Hire Developer</a>
                     </li> */}
                     <li className="nav-item">
-                        <a className="nav-link" href="/AboutUs">About Us</a>
+                       <Link to="/AboutUs" className='nav-link'>About Us</Link>
                     </li>
                     {/* <li className="nav-item">
                         <a className="nav-link" href="#">Portfolio</a>
                     </li> */}
                     <li className="nav-item">
-                        <a className="nav-link" href="/career">Career</a>
+                        <Link className="nav-link" to="/career">Career</Link>
                     </li>
                     {/* <li className="nav-item">
                         <a className="nav-link" href="#">Blog</a>
                     </li> */}
                 </ul>
                 <form className="d-flex">
-                    <a href="/ContactUs" className="btn">Contact Us</a>
+                    <Link to="/ContactUs" className="btn">Contact Us</Link>
                 </form>
                 </div>
             </nav>

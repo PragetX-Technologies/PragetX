@@ -63,21 +63,26 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import Footer from "./Components/Footer/Footer";
 import BottomContactForm from "./Components/BottomContactForm/BottomContactForm";
 import "./CSS/custom.css"
+import Login from "./Pages/AdminLogin/AdminLogIn";
+import DashBoard from "./Pages/DashBoard/DashBoard";
+import PrivateRoute from "./Auth/PrivateRoutes";
 
 
 function App() {
   return (
     <>
-    <Navbar/>
     <BrowserRouter>
+    <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/AboutUs" element={<PrivateRoute Component={AboutUs}/>} />
         <Route path="/Blog" element={<Blog />} />
-        <Route path="/Career" element={<Career />} />
+        <Route path="/Career" element={<Career/>} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/WhyPragetX" element={<WhyPragetX />} />
+        <Route path="/Admin" element={<Login/>} />  
+        {/* <Route path="/Dashboard" element={<DashBoard/>} /> */}
 
         <Route path="/DigitalMarketing" element={<DigitalMarketing />} />
         <Route
@@ -201,8 +206,8 @@ function App() {
         <Route path="/HowWeWork" element={<HowWeWork />} />
         <Route path="/OurCompany" element={<OurCompany />} />
       </Routes>
-    </BrowserRouter>
     <Footer/>
+    </BrowserRouter>
     </>
   );
 }

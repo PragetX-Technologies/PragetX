@@ -122,7 +122,7 @@ function Footer() {
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-12">
                     <div className="f-skype">
-                        <a className="d-flex" href="#">
+                        <a className="d-flex" href="mailto://hello@pragetx.com">
                             <span>
                                 <img src={email}/>
                             </span>
@@ -139,11 +139,11 @@ function Footer() {
                 <p><span>© 2022 <a href="#" target="_new">Pragetx Technologis</a> All rights reserved.</span></p>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 social-icon">
-                <a href="#"><img src={facebook}/></a>
-                <a href="#"><img src={twitter}/></a>
-                <a href="#"><img src={linkedin}/></a>
-                <a href="#"><img src={instagram}/></a>
-                <a href="#"><img src={github}/></a>
+                <a href="https://github.com/PragetX-Technologies" target={'_blank'}><img src={github}/></a>
+                <a href="https://www.linkedin.com/company/pragetx" target={'_blank'}><img src={linkedin}/></a>
+                <a href="https://twitter.com/pragetx" target={'_blank'}><img src={twitter}/></a>
+                <a href="https://www.instagram.com/pragetx_technologies/?hl=am-et"  target={'_blank'}><img src={instagram}/></a>
+                <a href="https://www.facebook.com/PragetX/" target={'_blank'}><img src={facebook}/></a>
             </div>
         </div>
     </div>

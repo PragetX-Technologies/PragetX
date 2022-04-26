@@ -10,6 +10,41 @@ import Logo8 from "../../Images/tb-meraaki-designs.png"
 import Logo9 from "../../Images/tb-j1click.jpg"
 
 function TrustedBy() {
+   const trustedByContent={
+      h2Header:"Our Trusted Customers",
+      paragraph:"With innovative thinking and a positive attitude toward dealing with industrial problems in mind, developers at PragetX strive to provide clients with the best quality assistance till the project meets the business objectives. ",
+      contentArray:[
+         {
+            img:Logo1
+         },
+         {
+            img:Logo2
+         },
+         {
+            img:Logo3
+         },
+         {
+            img:Logo4
+         },
+         {
+            img:Logo5
+         },
+         {
+            img:Logo6
+         },
+         {
+            img:Logo7
+         },
+         {
+            img:Logo8
+         },
+         {
+            img:Logo9
+         },
+         
+      ],
+      CTA:"Get In Touch"
+   }
   return (
     <section className="trusted-by-main">
    <div className="container">
@@ -17,41 +52,22 @@ function TrustedBy() {
          <div className="col-lg-6 col-md-12">
             <div className="trusted-by-logo">
             <div className="trusted-by-logo">
-               <div className="t-by-logo">
-                  <img src={Logo1}/>
-               </div>
-               <div className="t-by-logo">
-                  <img src={Logo2}/>
-               </div>
-               <div className="t-by-logo">
-                  <img src={Logo3}/>
-               </div>
-               <div className="t-by-logo">
-                  <img src={Logo4}/>
-               </div>
-               <div className="t-by-logo">
-                  <img src={Logo5}/>
-               </div>
-               <div className="t-by-logo">
-                  <img src={Logo6}/>
-               </div>
-               <div className="t-by-logo">
-                  <img src={Logo7}/>
-               </div>
-               <div className="t-by-logo">
-                  <img src={Logo8}/>
-               </div>
-               <div className="t-by-logo">
-                  <img src={Logo9}/>
-               </div>
+              {
+                 trustedByContent.contentArray && trustedByContent.contentArray.map((i)=>(
+                  <div className="t-by-logo">
+                     <img src={i.img}/>
+                  </div>
+                  
+                 ))
+              }
             </div>
             </div>
          </div>
          <div className="col-lg-6 col-md-12">
             <div className="trusted-by-con">
-               <h2>Our Trusted Customers</h2>
-               <p>With innovative thinking and a positive attitude toward dealing with industrial problems in mind, developers at PragetX strive to provide clients with the best quality assistance till the project meets the business objectives. </p>
-               <a href="#" className="btn">Get In Touch <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+               <h2>{trustedByContent.h2Header}</h2>
+               <p>{trustedByContent.paragraph} </p>
+               <a href="#" className="btn">{trustedByContent.CTA} <i className="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
          </div>
       </div>

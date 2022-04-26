@@ -7,31 +7,23 @@ import MobileAppDaily from "../../Images/mobile-app-daily.png"
 
 
 function HeaderTopSlider() {
+   
+   const HeaderTopSliderContent={
+      h1HeaderLine1:"Best Agile",
+      h1HeaderHighlight:"Collaboration",
+      h1HeaderLine2:"in the Age of Remote Work",
+      h6Header:"Leverage the IT professionals at PragetX to help you ease up your digital transformation journey with emerging technologies, like Web 3.0.",
+      CTA:"Inquire Now"
+   }
+
   return (
     <section className="header-top-slider">
    <div className="container">
       <div className="row">
          <div className="header-top-con">
-            <h1>Best Agile <span> Collaboration</span> in the <br/>Age of Remote Work</h1>
-            <h6>Leverage the IT professionals at PragetX to help you ease up your digital transformation journey with emerging technologies, like Web 3.0.</h6>
-            <a href="#" className="btn">Inquire Now <i className="fa fa-angle-right" aria-hidden="true"></i></a>
-            {/* <div className="logos-review">
-               <div className="r-logo1">
-                  <img src={GoodFirms}/>
-               </div>
-               <div className="r-logo1">
-                  <img src={Clutch}/>
-               </div>
-               <div className="r-logo1">
-                  <img src={AppFuture}/>
-               </div>
-               <div className="r-logo1">
-                  <img src={GlassDoor}/>
-               </div>
-               <div className="r-logo1">
-                  <img src={MobileAppDaily}/>
-               </div>
-            </div> */}
+            <h1>{HeaderTopSliderContent.h1HeaderLine1} <span> {HeaderTopSliderContent.h1HeaderHighlight} </span>  <br/> {HeaderTopSliderContent.h1HeaderLine2}</h1>
+            <h6>{HeaderTopSliderContent.h6Header}</h6>
+            <a href="#" className="btn">{HeaderTopSliderContent.CTA} <i className="fa fa-angle-right" aria-hidden="true"></i></a>
          </div>
       </div>
    </div>

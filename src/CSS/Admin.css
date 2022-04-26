@@ -1,0 +1,564 @@
+* {
+    outline: none !important;
+}
+
+a {
+    color: #000;
+    outline: 0
+}
+
+a p {
+    color: #000
+}
+
+a:hover {
+    color: #024D81
+}
+
+.btn,
+.btn:focus,
+a:focus {
+    outline: 0
+}
+
+.d-flex {
+    flex-wrap: wrap;
+}
+
+body {
+    background: #fff;
+    transition: background-color .6s ease-in-out;
+    margin: 0;
+    font-family: 'Poppins', sans-serif!important;
+    font-size: 16px!important;
+    line-height: 24px!important;
+    color: #000;
+    font-weight: 400
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-size: 70px!important;
+    line-height: 80px!important;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 44px!important;
+    line-height: 50px!important;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 34px!important;
+    line-height: 40px!important;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 28px!important;
+    line-height: 34px!important;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 24px!important;
+    line-height: 30px!important;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 18px!important;
+    line-height: 24px!important;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+
+/*================header================*/
+
+.login-signup-main {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    height: 100vh;
+    background: url(../Images/LoginBackGround.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.login-signup-main::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.login-signup-main .container {
+    position: relative;
+    z-index: 1;
+}
+
+.login-signup-con {
+    height: 100vh;
+    align-items: center;
+}
+
+.login-signup-form {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: #fff;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+.login-logo {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.login-logo img {
+    height: 50px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.login-signup-form .col-lg-6,
+.login-signup-form .col-lg-12 {
+    margin: 20px 0 0;
+}
+
+.login-signup-form .form-control {
+    box-shadow: none !important;
+    outline: none !important;
+    height: 45px;
+}
+
+.login-signup-form select {
+    box-shadow: none !important;
+    outline: none !important;
+    height: 45px;
+}
+
+.form-check.form-check-inline {
+    padding: 0;
+}
+
+.form-check.form-check-inline .radio {
+    margin: 0 30px 0 0;
+}
+
+.login-signup-form .btn {
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 30px;
+    background: #00013a;
+    margin: 20px 0 0;
+}
+
+.login-signup-form .nav.nav-tabs {
+    display: inline-flex;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    margin: 30px 0 30px;
+}
+
+.login-signup-form .nav.nav-tabs li {
+    border: none;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.login-signup-form .nav.nav-tabs li button {
+    border: none;
+    color: #00013a;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.login-signup-form .nav.nav-tabs li button.active {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background: #00013a;
+}
+
+.login-signup-form .row {
+    margin-top: 0;
+}
+
+
+/*===================dashboard====================*/
+
+#whole-flex {
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+}
+
+
+/* NavBar */
+
+.sidenav {
+    max-width: 350px;
+    width: 65%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: left center;
+    transform: translateX(-380px);
+}
+
+.sidenavHeader {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(35, 47, 62);
+    padding: 10px 0px 10px 30px;
+    font-size: 23px;
+}
+
+.sidenavContentHeader {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidenavContent {
+    padding: 15px 0px 15px 25px;
+}
+
+.sidenavContent:hover {
+    background-color: #eaeded;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    color: gray;
+    background-color: gray;
+    margin: 15px auto 10px auto;
+}
+
+.sidenavRow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 25px 15px 25px;
+}
+
+.sidenavRow:hover {
+    background-color: #eaeded;
+}
+
+.sidenavRow:hover i {
+    color: #111111 !important;
+}
+
+#closeBtn {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    margin-left: 390px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    z-index: 75;
+    transform: translateY(-5px);
+    transition: visibility 0.5s;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* animation */
+
+@keyframes collapse {
+    0% {
+        z-index: 100;
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-380px);
+    }
+}
+
+@keyframes expand {
+    0% {
+        z-index: 100;
+        transform: translateX(-380px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* Overlay */
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* Dropdown */
+
+.sidenavContainer hr {
+    width: 85%;
+}
+
+.sidenavRowDropdown {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+}
+
+.sidenavRowDropdown:hover {
+    background-color: #eaeded;
+}
+
+.sidenavRowDropdown:hover i {
+    color: #111111 !important;
+}
+
+.sidenavContainer {
+    display: none;
+    height: 0px;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: center top;
+}
+
+@keyframes expandDropDown {
+    0% {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+
+@keyframes collapseDropDown {
+    0% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+}
+
+
+/* Container part */
+
+#main-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+@keyframes mainAway {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-380px);
+    }
+}
+
+@keyframes mainBack {
+    0% {
+        transform: translateX(-380px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#sub-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    transform: translateX(380px);
+}
+
+@keyframes subBack {
+    0% {
+        transform: translateX(380px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes subPush {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(380px);
+    }
+}
+
+#mainMenu {
+    margin-top: 5px;
+    padding: 15px 0px 15px 25px;
+    font-weight: bold;
+}
+
+#mainMenu:hover {
+    background-color: #eaeded;
+    cursor: pointer;
+}
+
+.header-main-dash {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.header-right-side .dropdown .btn {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    color: #00013a;
+    box-shadow: none !important;
+    padding: 10px 15px;
+}
+
+.header-right-side .dropdown .btn img {
+    height: 35px;
+    margin-right: 10px;
+}
+
+
+/*! * =========================== responsive ========================= */
+
+@media only screen and (max-width:1440px) {}
+
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:991px) {}
+
+@media only screen and (max-width:767px) {
+    .login-signup-form .nav.nav-tabs li {
+        border: none;
+        width: 40%;
+        margin: 0 5px;
+    }
+    .login-signup-form {
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .login-logo img {
+        height: 40px;
+    }
+    .login-logo {
+        margin: 0;
+    }
+    .login-signup-form form {
+        max-height: 400px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width:380px) {}

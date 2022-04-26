@@ -13,6 +13,7 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.css">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -41,6 +42,44 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js"></script>
+    <script>
+          const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        autoHeight: false,
+        centeredSlides:true,
+        slidesPerView: 1,
+      // Responsive breakpoints
+          breakpoints: {
+                640: {
+              slidesPerView:2,
+                      spaceBetween: 40,
+            },
+            992: {
+              slidesPerView: 3,
+                      spaceBetween: 40,
+            }
+          },
+
+        // If we need pagination
+        pagination: {
+            el: ".swiper-pagination"
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        }
+
+        // And if we need scrollbar
+        /*scrollbar: {
+        el: '.swiper-scrollbar',
+      },*/
+    });
+    </script>
 </body>
 
 </html>

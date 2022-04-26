@@ -13,87 +13,93 @@ import work11 from "../../Images/p-work-ic11.png"
 import work12 from "../../Images/p-work-ic12.png"
 
 function WhyWorkwithUs() {
+   const WhyWorkwithUsContent={
+      h2Header:"Perks of Working With PragetX",
+      h5Header:"We provide cutting edge web and mobile app solutions",
+      ContentArray:[
+         {
+            id:1,
+            img:work1,
+            heading:"5 Working Days a Week",
+         },
+         {
+            id:2,
+            img:work2,
+            heading:"Flexible Work",
+         },
+         {
+            id:3,
+            img:work3,
+            heading:"Experienced Team",
+         },
+         {
+            id:4,
+            img:work4,
+            heading:"Diversify Culture",
+         },
+         {
+            id:5,
+            img:work5,
+            heading:"Embracing Change",
+         },
+         {
+            id:6,
+            img:work6,
+            heading:"Referral Programs",
+         },
+         {
+            id:7,
+            img:work8,
+            heading:"Valid Paid Leaves",
+         },
+         {
+            id:8,
+            img:work7,
+            heading:"Work as a Team",
+         },
+         {
+            id:9,
+            img:work9,
+            heading:"Value Suggestions",
+         },
+         {
+            id:10,
+            img:work10,
+            heading:"Skill Matters Most",
+         },
+         {
+            id:11,
+            img:work11,
+            heading:"Build Future Career",
+         },
+         {
+            id:12,
+            img:work12,
+            heading:"Goodies and Gifts",
+         },
+      ]
+   }
   return (
     <section className="work-life-main perks-of-work">
    <div className="container">
       <div className="con-head text-center">
-         <h2>Perks of Working With PragetX</h2>
-         <h5>We provide cutting edge web and mobile app solutions</h5>
+         <h2>{WhyWorkwithUsContent.h2Header}</h2>
+         <h5>{WhyWorkwithUsContent.h5Header}</h5>
       </div>
       <div className="work-life">
          <div className="row gy-5">
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work1}/>
-                  <span>5 Working Days a Week</span>
+            {
+               WhyWorkwithUsContent.ContentArray && WhyWorkwithUsContent.ContentArray.map((i)=>(
+
+               <div className="col-lg-4 col-md-6">
+                  <div className="work-life-box">
+                     <img src={i.img}/>
+                     <span>{i.heading}</span>
+                  </div>
                </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work2}/>
-                  <span>Flexible Work</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work3}/>
-                  <span>Experienced Team</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work4}/>
-                  <span>Diversify Culture</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work5}/>
-                  <span>Embracing Change</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work6}/>
-                  <span>Referral Programs</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work8}/>
-                  <span>Valid Paid Leaves</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work7}/>
-                  <span>Work as a Team</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work9}/>
-                  <span>Value Suggestions</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work10}/>
-                  <span>Skill Matters Most</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work11}/>
-                  <span>Build Future Career</span>
-               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-               <div className="work-life-box">
-                  <img src={work12}/>
-                  <span>Goodies and Gifts</span>
-               </div>
-            </div>
+
+               ))
+            }
          </div>
       </div>
    </div>
